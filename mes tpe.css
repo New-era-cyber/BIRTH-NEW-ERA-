@@ -1,0 +1,98 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(190, 247, 247, 0.678);
+    align-items: center;
+}
+header{
+    background-color:rgba(80, 10, 49, 0.76);
+    color: white;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    padding: 10px;
+    margin-left: 25%;
+    height: 20px;
+    border-radius: 45px;
+}
+header nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 25%;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 50px;
+} 
+nav a:hover, .active{
+    color: yellow;
+    border-top: 4px solid orange;
+    border-bottom: 4px solid orange;
+} 
+
+section{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    word-spacing: 5px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+section #liens ul li{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+#liens{
+    display: flex;
+    align-items: center;
+}
+div{
+    display: inline-block;
+}
+nav a{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    word-spacing: 5px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 10%;
+}
+div{
+    display: flex;
+    align-items: center; 
+    height: 95px; 
+    padding: 70px; 
+    justify-content: space-between; 
+}
+
+a{
+   height: 20px;
+   margin: 25px;
+   justify-content: space-between; 
+   font-size: 20px;
+}
+a:hover{
+    color: rgba(145, 135, 135, 0.726);
+    border-top: 4px solid rgba(54, 23, 138, 0.671);
+    /* border-bottom: 4px solid orange; */
+}
+
+

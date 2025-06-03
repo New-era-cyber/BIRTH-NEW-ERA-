@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(190, 247, 247, 0.678);
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.image-pont{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family: 'arial black';
+    font-size: 4em;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 3px 3px 6px  rgba(0, 0, 0, 0.8);
+}
